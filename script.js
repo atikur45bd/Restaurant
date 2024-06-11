@@ -33,7 +33,7 @@ successContainer2.appendChild(namePeragraph2);
 
 const imageArry=[
     {
-        url:"/images/main-section/products/gyro-sandwich.jpeg"
+        url:"./images/main-section/products/gyro-sandwich.jpeg"
     },
     {
         url:"./images/main-section/products/Enchilade.jpeg"

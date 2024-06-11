@@ -1,0 +1,198 @@
+.nav-bar{
+    height: 80px;
+    display: flex;
+  
+    align-items: center;
+    justify-content: space-between;
+}
+.navlogo img{
+    height: 50px;
+}
+
+.nav a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.nav-search-box{
+    display: flex;
+    border-width: 0px, 0px, 0px, 0px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    padding: 10px 20px;
+}
+.search-icon{
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+.nav-search-box input{
+    border: none;
+    outline: none;
+    background: transparent;
+    
+}
+::placeholder {
+    color: black;
+    font-style: bold;
+    font-size: 1rem;
+  }
+
+.cart-icon{
+    height: 35px;
+    width: 35px;
+    border-left: 2px solid #0000001A;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+.cart-icon img{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+}
+.header-container{
+    display: flex;
+}
+.header-container-left{
+    width: 60%;
+}
+.header-container-left p{
+    width: 60%;
+}
+.bike-delivary-button{
+    margin-top: 30px;
+    width: 150px;
+    background: #F5DDC4;
+    padding: 2.5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+.bike-delivary-button h5{
+    color: var(--primary-color)
+
+}
+.bike-delivary-button img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%; 
+}
+.header-container-lef-title{
+    margin: 40px 0;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.header-container-lef-title-change-color{
+    color: var(--primary-color);
+}
+.header-container-left-footer-button{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+.header-container-left-footer-button button{
+    background-color: var(--primary-color);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: var(--background-color);
+}
+.header-container-play-buton{
+    width: 30px;
+    height: 30px;
+    padding: 10px 10px;
+    fill: var(--primary-color);
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px 0px #83A5FF40;
+    border-radius: 50%;
+    margin-left:30px;
+    margin-right: 20px;
+}
+.header-container-left-footer-button button {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+   
+}
+
+.header-container-right{
+    margin-top: 30px;
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+   
+}
+.header-container-right-card{
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 31px 0px #0000000D;
+    border-radius: 20px;
+  
+}
+.header-container-right-card img{
+    width: 200px;
+    height: 150px;
+}
+.dollar-sign{
+    color: brown;
+}
+
+@media only screen and (min-width:200px) and (max-width: 576px){
+    .container{
+        padding: 10px 10px;
+    }
+    .nav-bar{
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 120px;
+    }
+    .header-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .header-container-left{
+        width: 100%;
+        
+    }
+    .header-container-left p{
+        width: 100%;
+    }
+    .bike-delivary-button{
+        margin: 0 auto;
+    }
+    .header-container-left-footer-button{
+        flex-direction: column;
+        padding: 10px 10px;
+        gap: 40px;
+    }
+  
+    .header-container-left-footer-button button{
+        padding:20px 80px;
+    }
+  
+    .header-container-play-buton {
+        width: 80px;
+        height: 80px;
+    }
+    .header-container-left-footer-button h4{
+        font-size: 25px;
+
+    }
+    .header-container-right{
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        width: 100%;
+    }
+     .header-container-right-card{
+        margin: 20px 0;
+        padding: 10px 10px;
+    }
+    .header-container-right-card img{
+        width: 350px;
+        height:350px;
+
+    } 
+    
+}
